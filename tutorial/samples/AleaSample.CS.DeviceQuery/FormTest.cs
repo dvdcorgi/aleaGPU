@@ -60,6 +60,7 @@ namespace DeviceQuery
             for (int i = 0; i < result.Count(); i++)
             {
                 Console.WriteLine(result.GetValue(i));
+                Console.WriteLine(i);
             }
         }
     }
